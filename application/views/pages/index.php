@@ -17,7 +17,7 @@
                 <td class="text-right">
                     <a href="/pages/<?php echo $page->id; ?>" class="btn btn-xs btn-default">Ver</a>
                     <a href="/pages/<?php echo $page->id; ?>/edit" class="btn btn-xs btn-info">Editar</a>
-                    <form action="/pages/<?php echo $page->id; ?>/delete" style="display: inline-block">
+                    <form action="/pages/<?php echo $page->id; ?>/delete" style="display: inline-block" METHOD="post">
                         <input type="submit" value="remover" class="btn btn-xs btn-danger">
                     </form>
                 </td>
@@ -27,7 +27,8 @@
 </table>
 
 <?php
-echo '<pre>'; print_r($pages); echo '</pre>';
+
+// echo '<pre>'; print_r($pages); echo '</pre>';
 
 // print_r($pages);
 // var_dump($pages);
