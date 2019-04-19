@@ -1,3 +1,7 @@
 <?php
 
-var_dump($pages);
+
+echo '<pre>'; print_r($pages); echo '</pre>';
+
+// print_r($pages);
+// var_dump($pages);
