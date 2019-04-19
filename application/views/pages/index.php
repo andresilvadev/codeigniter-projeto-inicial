@@ -1,4 +1,8 @@
 
+<div class="row">
+    <a href="/pages/new" class="btn btn-success pull-right">Nova página</a>
+</div>
+
 <table class="table table-hover">
     <thead>
     <tr>
