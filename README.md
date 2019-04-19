@@ -28,3 +28,8 @@
 ----
 
 [Acessar meu site](http://localhost:8000/)
+
+
+
+##### Considerações
+- Codeigniter não trabalha com autoloads portando não necessita de namespaces
